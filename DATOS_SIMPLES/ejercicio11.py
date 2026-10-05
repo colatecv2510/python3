@@ -1,0 +1,7 @@
+cantidad = float(input("Introduce la cantidad que quieres invertir: "))
+capital1 = round(cantidad * (1 + 4 / 100) ** 1, 2)
+capital2 = round(cantidad * (1 + 4 / 100) ** 2, 2)
+capital3 = round(cantidad * (1 + 4 / 100) ** 3, 2)
+print(f"La cantidad del capital obtenido en la inversión es {capital1:.2f}€.")
+print(f"La cantidad del capital obtenido en la inversión es {capital2:.2f}€.")
+print(f"La cantidad del capital obtenido en la inversión es {capital3:.2f}€.")
